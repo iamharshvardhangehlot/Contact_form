@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us</title>
+    <style>
+        .name {
+            display: inline-block;
+
+
+        }
+
+        .phone {
+            display: inline-block;
+
+        }
+
+        .email {
+            display: inline-block;
+        }
+
+        .subject {
+            display: inline-block;
+        }
+
+        .twobox {
+            border: 1px solid black;
+            width: 334px;
+            height: 378px;
+            padding: 29px 40px 21px 40px;
+            display: flex;
+            background-color: #1c00b5;
+            color: white;
+            font-family: sans-serif;
+            border-color: transparent;
+
+
+        }
+
+        .firstbox {
+
+            border: 1px solid black;
+            width: 506px;
+            height: 378px;
+            padding: 29px 40px 21px 50px;
+            display: flex;
+            background-color: white;
+            color: #492db9;
+            line-height: 2;
+            border-color: transparent;
+            font-family: sans-serif;
+            font-size: medium;
+            font-weight: lighter;
+
+
+        }
+
+
+
+        .main {
+            display: flex;
+            margin: 2px 2px 2px 2px;
+            padding: 1px 50px 40px 50px;
+        }
+
+        fieldset {
+            background-color: #55ffe5;
+            border-color: transparent;
+            width: 300px;
+            margin: auto;
+        }
+
+
+
+        #reachus {
+            font-weight: bolder;
+            margin-bottom: 77px;
+            margin-top: 9px;
+        }
+
+        #sendrequest {
+            font-weight: bold;
+            font-family: sans-serif;
+            margin-bottom: 25px;
+            color: #332b88;
+        }
+
+        .connect {
+            margin: 20px 0px 30px 50px;
+        }
+
+        .inname {
+            border-color: transparent;
+        }
+
+        header {
+            font-weight: 900;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            line-height: 0%;
+        }
+
+        #send {
+
+            background-color: #1500b8;
+            color: white;
+            width: 90px;
+            height: 32px;
+            border-radius: 40px;
+            margin-top: 20px;
+            border-color: transparent;
+
+
+
+
+
+        }
+
+        #send:hover {
+           
+            
+            
+
+            margin: 20px 0px 0px 100px ;
+
+        }
+
+        #name,
+        #phone,
+        #email,
+        #subject,
+        #message {
+             border-top: 0px;
+            border-left : 0px;
+            border-right: 0px;
+            border-radius: 1px;
+            border-bottom-width: 0.1em; 
+            border-color: rgba(0, 0, 0, 0.199);
+           
+            
+
+
+        }
+
+        .phone,
+        .subject {
+            margin-left: 100px;
+        }
+
+        input::placeholder {
+            font-size: 12px;
+        }
+
+        pre{
+            font-family: sans-serif;
+            margin-bottom: 30px;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <div class="connect">
+            <header>Connect With us</header>
+            <p class="intro">We would love to Respond to your queries and help you succeed .
+            <div class="intro">
+                Feel free to get in touch with us. </div>
+            </p>
+
+        </div>
+        <div class="main">
+            <div class="firstbox">
+                <form>
+                    <div id="sendrequest"> Send your request</div>
+                    <div class="name">
+                        <div>Name</div>
+                        <input type="text" name="" id="name" placeholder="John Amendo">
+
+                    </div>
+                    <div class="phone">
+                        <div>Phone</div>
+                        <input type="tel" id="phone"
+                          placeholder="+91 787 822 1122"  maxlength="13">
+                    </div>
+                    <div class="email">
+                        <div>Email</div>
+                        <input type="email" id="email" placeholder="Johnamendo@gmail.com">
+                    </div>
+                    <div class="subject">
+                        <div>Subject</div>
+                        <input type="text" id="subject" placeholder="Product Demo">
+                    </div>
+                    <div>Message</div>
+                    <textarea name="" id="message" cols="58" rows="5" placeholder="Your Message"></textarea>
+                    <div> <input type="button" value="SEND" name="" id="send"> </div>
+
+                </form>
+            </div>
+            <div class="twobox">
+                <form>
+                    <div id="reachus">Reach Us</div>
+
+                    <pre>Email        contactus@example.com </pre>
+                    <pre>Phone      +91 941 345 3343</pre>
+                    <pre>Address    #212. Grounf floor. 7th cross
+                 somo layout. somo Road.
+                 Koromangla
+                 Bengaluru 560001
+                 
+                    </pre> 
+
+
+                    
+            </div>
+            </form>
+        </div>
+
+
+
+
+        </div>
+    </fieldset>
+</body>
+
+</html>
